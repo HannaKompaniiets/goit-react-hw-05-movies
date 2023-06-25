@@ -1,0 +1,26 @@
+.mainMovies {
+  padding: 30px 80px;
+}
+
+.input {
+  width: 250px;
+  font-weight: 600;
+  padding: 8px 5px;
+  margin-right: 25px;
+  border-radius: 5px;
+  border: 1px solid rgba(143, 149, 165, 1);
+}
+
+.search {
+  width: 100px;
+  padding: 8px 0;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: orange;
+  color: black;
+}
+
+.form {
+  margin-bottom: 25px;
+}

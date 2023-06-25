@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 80px;
+  margin: 0;
+  list-style: none;
+  background-color: rgb(58, 57, 57);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.page {
+  font-weight: 900;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}

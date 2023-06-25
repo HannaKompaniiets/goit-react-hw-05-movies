@@ -1,0 +1,15 @@
+.castTitle {
+  color: orange;
+  font-weight: 600;
+}
+
+.castList {
+  padding: 10px 30xp;
+}
+
+.castListItem {
+  font-weight: 400;
+}
+.castListItem:not(:last-child) {
+  margin-bottom: 8px;
+}

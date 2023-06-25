@@ -1,0 +1,11 @@
+.backLink {
+  color: orange;
+  margin-top: 60px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+  color: blue;
+}
