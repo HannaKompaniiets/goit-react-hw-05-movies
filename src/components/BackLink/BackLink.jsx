@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import css from './BackLink.module.css';
+import PropTypes from 'prop-types';
 
 const BackLink = ({ location }) => {
   const backLink = useRef(location.state?.from ?? '/');
@@ -13,3 +14,7 @@ const BackLink = ({ location }) => {
 };
 
 export default BackLink;
+
+BackLink.propTypers = {
+  location: PropTypes.string.isRequired,
+};
