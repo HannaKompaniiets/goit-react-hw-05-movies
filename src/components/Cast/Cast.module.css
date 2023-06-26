@@ -4,12 +4,18 @@
 }
 
 .castList {
-  padding: 10px 30xp;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 30px;
+  list-style: none;
 }
 
 .castListItem {
   font-weight: 400;
+  width: 250px;
 }
 .castListItem:not(:last-child) {
-  margin-bottom: 8px;
+  margin-right: 8px;
 }

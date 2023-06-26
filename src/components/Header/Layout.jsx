@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import styled from 'styled-components';
 import css from './Layout.module.css';
@@ -17,18 +17,18 @@ const Layout = () => {
       <ul className={css.header}>
         <li>
           <StyledLink to="/" className={css.page}>
-            {' '}
             Home
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/movies" className={css.page}>
-            {' '}
             Movies
           </StyledLink>
         </li>
       </ul>
-      <Outlet />
+      <Suspense>
+        <Outlet />
+      </Suspense>
     </div>
   );
 };
